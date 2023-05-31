@@ -1,3 +1,4 @@
-class Audition < ActiveRecord::Base
+class Audition < ApplicationRecord
+    belongs_to :role
+  end
   
-end
